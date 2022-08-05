@@ -1,0 +1,14 @@
+.conteudo__secudario {
+    margin-top: 1rem;
+}
+
+.img__professor {
+  width: 18rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .img__professor {
+    width: 32vw;
+    margin-left: 5rem;
+  }
+}

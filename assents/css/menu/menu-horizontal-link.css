@@ -1,0 +1,16 @@
+@media screen and (min-width: 1024px) {
+  .menu-horizontal__link:hover {
+    color: var(--azul);
+    text-decoration: underline;
+  }
+
+  .menu-horizontal__link {
+    margin-left: 3rem;
+    padding-top: 1rem;
+  
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: var(--Inter);
+    color: var(--branco);
+  }
+}

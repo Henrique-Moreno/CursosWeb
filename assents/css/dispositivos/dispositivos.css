@@ -1,0 +1,45 @@
+.dispositivos__titulos {
+    text-align: center;
+    color: var(--branco);
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: var(--Inter);
+    margin-bottom: 1rem;
+}
+
+.lista__item {
+    text-align: center;
+    color: var(--branco);
+    text-transform: uppercase;
+    font-family: var(--Inter);
+    font-size: 1em;
+    list-style: none;
+}
+
+.dispositivos {
+    margin-bottom: 7rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+    .dispositivos {
+        margin-top: 20rem;
+    }
+
+    .dispositivos__lista {
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+        list-style: none;
+    }
+
+    .dispositivos__titulos {
+        font-size: 2em;
+        margin: 5rem;
+    }
+
+    .lista__item {
+        font-size: 1.5em;
+    }
+
+}

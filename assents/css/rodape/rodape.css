@@ -1,0 +1,43 @@
+.rodape {
+    text-align: center;
+    color: var(--branco);
+    font-family: var(--Inter);
+    margin-bottom: 3rem;
+  }
+  
+  .titulo__rodape {
+    text-transform: uppercase;
+    font-size: 1em;
+  }
+  
+  .criador {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin-top: 2rem;
+  }
+  
+  .icone__rodape {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    padding: 0 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        margin-top: 20rem;
+    }
+    .titulo__rodape {
+        font-size: 1.3em;
+    }
+
+    .icone__rodape {
+        font-size: 2em;
+    }
+
+    .criador {
+        font-size: 1em;
+    }
+}

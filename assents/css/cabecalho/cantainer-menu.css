@@ -1,0 +1,13 @@
+.container__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 2rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .container__menu {
+        display: none;
+    }
+
+} 

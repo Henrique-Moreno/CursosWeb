@@ -1,0 +1,26 @@
+.botao__link {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1.5rem;
+    
+    width: 50%;
+    padding: 1rem;
+    background: var(--azul);
+  
+    font-size: .99rem;
+    text-transform: uppercase;
+    font-family: var(--Inter);
+    color: var(--preto);
+    border-radius: 2px;
+  }
+
+   @media screen and (min-width: 1024px) {
+    .botao__link {
+      font-size: 1.4em;
+      border-radius: 3px;
+    }
+
+    .botao__link:hover {
+      color: var( --branco);
+    }
+  }

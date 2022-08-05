@@ -1,0 +1,23 @@
+.container__parte2 {
+    margin-bottom: 8rem;
+    margin-top: 7rem;
+}
+
+.conteudo__secudario_parte2 {
+    margin-bottom: 2rem;
+}
+
+.img__maquinas {
+    width: 18rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .container__parte2 {
+        margin-top: 20rem;
+    }
+
+    .img__maquinas {
+        margin-left: 7rem;
+        width: 32vw;
+    }
+}

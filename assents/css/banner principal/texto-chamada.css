@@ -1,0 +1,21 @@
+.texto__chamada {
+    font-size: .90rem;
+    text-transform: uppercase;
+    font-family: var(--Inter);
+}
+
+.texto2 {
+    margin-top: 0.5rem;
+    font-size: .99rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .texto__chamada {
+        font-size: 1.3em;
+    }
+
+    .texto2 {
+        font-size: 1.5rem;
+    }
+
+}

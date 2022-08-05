@@ -1,0 +1,21 @@
+.descricao__texto {
+    margin: 0 0.8rem;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.descricao__titulo {
+    text-transform: uppercase;
+    margin-bottom: 0.4rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .descricao__texto {
+        font-size: 1.4em;
+    }
+
+    .descricao__titulo {
+        font-size: 1.8em;
+    }
+
+}

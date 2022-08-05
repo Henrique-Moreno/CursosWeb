@@ -1,0 +1,12 @@
+.menu-lateral__link {
+    margin-left: 3rem;
+    padding-top: 3rem;
+  
+    text-decoration: none;
+    text-transform: uppercase;
+  
+    font-family: var(--Inter);
+    color: var(--branco);
+  }
+
+  

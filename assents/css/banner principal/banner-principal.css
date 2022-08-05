@@ -1,0 +1,34 @@
+.bannerPrincipal {
+   background: var(--branco);
+   height: 40vh;
+   text-align: center;
+   align-items: center; 
+}
+
+.banner__logo2 {
+    display: none;
+}
+
+
+.icone__banner_logo {
+    margin: 2rem;
+    font-size: 4em;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .bannerPrincipal {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        height: 60vh;
+    }
+    
+    .icone__banner_logo {
+        font-size: 7em;
+    } 
+}
+
+
+
+
+

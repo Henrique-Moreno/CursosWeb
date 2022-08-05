@@ -1,0 +1,9 @@
+.botao__menu {
+    background: none;
+    border: none;
+ }
+
+.icone__menu {
+    font-size: 2em;
+    color: var(--branco);
+}
